@@ -1,5 +1,0 @@
-config {
-  type: "view"
-}
-
-select "hello" as msg;
