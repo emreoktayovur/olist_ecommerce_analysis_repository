@@ -1,8 +1,8 @@
 /* =========================================================
 00_admin.sql
-Goal:
-- List tables in the dataset
-- Inspect columns for core tables
+
+- Lists tables in the dataset
+- Inspects columns for core tables
 
 ========================================================= */
 
