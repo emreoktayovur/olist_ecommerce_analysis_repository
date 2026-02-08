@@ -1,9 +1,11 @@
 /* =========================================================
 01_data_quality.sql
-Checks:
-1) Row counts
-2) Duplicate keys
-3) Join coverage
+
+-- Purpose: Basic data quality checks (counts, duplicate keys, join coverage)
+-- Inputs: olist_orders_data, olist_order_items, olist_customers
+-- Output grain: few summary rows (counts/flags)
+-- Notes: If duplicates/missing joins are non-zero, interpret downstream metrics carefully
+
 ========================================================= */
 
 -- 1) Row counts

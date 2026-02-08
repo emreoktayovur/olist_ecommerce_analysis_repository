@@ -1,13 +1,13 @@
 /* =========================================================
 02_customers.sql
-Purpose:
-- Customer-focused analysis for Olist
-Questions answered:
-1) Who are the most valuable customers?
-2) How often do customers repurchase (repeat rate)?
-Outputs:
-- Top customers ranked by total spend and order count
-- Summary metrics: total customers, repeat customers (2+ orders), repeat rate, avg orders/customer
+
+-- Purpose: Customer insights (top spenders + repeat purchase rate)
+-- Inputs: olist_orders_data, olist_order_items, olist_customers
+-- Output grain:
+--   - Top spenders: 1 row per customer_unique_id
+--   - Repeat rate: 1 summary row
+-- Notes: Delivered orders only; customer_unique_id used as "real customer"
+
 ========================================================= */
 
 -- Who are the most valuable customers?

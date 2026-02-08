@@ -1,8 +1,10 @@
 /* =========================================================
 00_admin.sql
 
-- Lists tables in the dataset
-- Inspects columns for core tables
+-- Purpose: Quick project admin checks (tables & key columns)
+-- Inputs: dbt-projem.olist_raw_data (INFORMATION_SCHEMA)
+-- Output grain: table list + column list (metadata)
+-- Notes: Use this to confirm correct table/column names before analysis
 
 ========================================================= */
 
